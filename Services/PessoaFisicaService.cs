@@ -26,17 +26,29 @@ namespace BancoAzul.Services
             if (novaPessoa.VerificarCPF(cpf) && novaPessoa.VerificarMaioridade(idade))
             {
                 listaPessoas.Add(novaPessoa);
+                
                 return true;
             }
             else
             {
                 return false;
             }
+
             
             
 
         }
 
-
     }
 }
+
+   /* 
+    
+      foreach(PessoaFisica x in listaPessoas)
+                    {
+                        Console.WriteLine("valor de x {x}", x);
+                    }
+
+    
+    }
+   */
