@@ -14,7 +14,7 @@ namespace BancoAzul.Model
         //public var CPF = "000.000.000-00";
         public string Nome;
         public string Endereco;
-        ContaCorrente ContaCorrente;
+        public ContaCorrente ContaCorrente;
 
 
 

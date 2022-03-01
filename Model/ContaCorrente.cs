@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace BancoAzul.Model
 {
-    internal class ContaCorrente
+    public class ContaCorrente
     {
-        int NumeroDaconta;
+        public int NumeroDaConta;
         float Saldo;
         List<Transacoes> Extrato;
 
